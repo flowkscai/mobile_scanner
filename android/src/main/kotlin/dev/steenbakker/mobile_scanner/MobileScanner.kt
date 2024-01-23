@@ -114,7 +114,7 @@ class MobileScanner(
                         val bmResult = rotateBitmap(bitmap, camera?.cameraInfo?.sensorRotationDegrees?.toFloat() ?: 90f)
 
                         val stream = ByteArrayOutputStream()
-                        bmResult.compress(Bitmap.CompressFormat.PNG, 100, stream)
+                        bmResult.compress(Bitmap.CompressFormat.JPEG, 80, stream)
                         val byteArray = stream.toByteArray()
                         val bmWidth = bmResult.width
                         val bmHeight = bmResult.height
