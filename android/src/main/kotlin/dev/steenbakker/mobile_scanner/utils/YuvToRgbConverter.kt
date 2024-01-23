@@ -10,10 +10,8 @@ import android.renderscript.Element
 import android.renderscript.RenderScript
 import android.renderscript.ScriptIntrinsicYuvToRGB
 import android.renderscript.Type
-import android.util.Log
 import androidx.annotation.RequiresApi
 import java.nio.ByteBuffer
-import java.util.*
 
 
 /**
